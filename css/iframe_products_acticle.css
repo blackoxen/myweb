@@ -1,0 +1,89 @@
+@charset "utf-8";
+.main{
+	padding-top: 145px;
+	overflow: hidden;
+	border-bottom:1px solid #efeeea;
+}
+
+.mainImg{
+	height: 285px;
+	width: 1200px;
+	border-top:1px solid #EFEEEA;
+	border-bottom:1px solid #EFEEEA;
+}
+
+/**/.ltBox{
+	width: 800px;
+	height: auto;
+	background: #FFFFCC;
+	float: left;
+	overflow: auto;
+}
+
+
+
+.rtBox{
+	width: 360px;
+	height: auto;
+	/*background: #900443;*/
+	float: left;
+	padding-left: 40px;
+	padding-top:20px;
+}
+
+.rtBox .gsImg{
+	width: 320px;
+	height: 200px;
+	border-radius:20px;
+}
+
+.rtBox .sub_nav{
+	padding-top:20px;
+}
+
+.rtBox .sub_nav h1{
+	color: #FF780D;
+	height: 45px;
+	line-height: 45px;
+	width: 320px;
+	border-bottom:1px solid rgba(0,0,0,0.3);
+	margin-bottom: 10px;
+}
+
+.rtBox .sub_nav .sub_nav_ul{
+	font-size: 15px;
+}
+
+.rtBox .sub_nav .sub_nav_li{
+	height: 25px;
+	line-height: 25px;
+}
+
+.rtBox .sub_nav .sub_nav_li .no_act:hover{
+	 color:#FF780D;
+	 text-decoration:underline;
+	 font-size:16px;
+}
+
+.rtBox .sub_nav .active{
+	font-size: 18px;
+	color:#FF780D;
+}
+
+.rtBox .logo_min{
+	padding-top: 20px;
+}
+
+.rtBox .sub_contact{
+	padding-top : 20px;
+}
+
+.rtBox .sub_contact{
+	font-size: 15px;
+	height: 25px;
+	line-height: 25px;
+}
+
+.rtBox .sub_contact li > span {
+	font-weight: bold;
+}
